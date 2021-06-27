@@ -1,0 +1,22 @@
+{
+    "apiAddres": "https://script.google.com/macros/s/AKfycbxTD4TjekGXvVznscnxESZ4W-bxBLD3QISjXr6270MUCF_LmfrTu-HMKtjhKF9QCVvF/exec",
+    "ru": {
+        "fieldAgreement": "Отправляя заявку, я&nbsp;даю [согласие на&nbsp;обработку персональных данных](/ru/privacy 'Согласие на обработку персональных данных')",
+        "fieldExtra": "Дополнительная информация по&nbsp;желанию",
+        "fieldExtraPlaceholder": "Дополнительная информация",
+        "fieldMedia": "Как с&nbsp;вами связаться,",
+        "fieldMediaEmail": "по&nbsp;электронной почте",
+        "fieldMediaEmailPlaceholder": "Ваша электронная почта",
+        "fieldMediaPhone": "или по&nbsp;телефону",
+        "fieldMmediaPhonePlaceholder": "Ваш телефон",
+        "fieldName": "Ваше имя",
+        "fieldSend": "Отправить",
+        "header": "Отправьте мне сообщение",
+        "resError": "Произошла ошибка при&nbsp;отправке. Попробуйте снова, или&nbsp;свяжитесь со&nbsp;мной по&nbsp;телефону или через социальные сети",
+        "resSuccess": "Спасибо, я&nbsp;получила ваше сообщение и&nbsp;в&nbsp;ближайшее время вам отвечу",
+        "valEmail": "Пожалуйста, введите корректный адрес электронной почты",
+        "valName": "Представьтесь, пожалуйста",
+        "valPhoneOrEmail": "Без телефона и электронной почты я не смогу вам ответить",
+        "valPrivacy": "Вам необходимо дать согласие на обработку персональных данных"
+    }
+}
