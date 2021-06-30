@@ -66,6 +66,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({
         "src/_assets/favicon": "favicon",
         "src/_assets/img": "img",
+        "src/_assets/fonts": "fonts",
         CNAME: "CNAME",
         "node_modules/jquery/dist/jquery.min.js": "js/jquery.min.js",
         "node_modules/jquery-validation/dist/jquery.validate.min.js":

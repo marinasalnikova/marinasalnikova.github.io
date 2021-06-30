@@ -1,18 +1,31 @@
+@use '../../../../node_modules/bulma/sass/utilities/_all.sass' as bulma;
+@use '../variables' as vars;
+
 .hero {
     .hero-body {
-        background-position: 50% 50%;
+        background-position: 100% 100%;
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         background-image: url(/img/02.jpg);
+        padding-left: 0;
 
-        // .title,
-        // .subtitle {
-        //     color: #fff;
-        //     text-shadow: 0px 0px 16px #035, 0px 0px 8px #000;
-        // }
+        .title,
+        .subtitle {
+            color: vars.$colorContrastA;
+        }
 
-        // .title {
-        //     font-size: 3.75rem;
-        // }
+        .title {
+            padding: 0.5em 0.5em 0.5em 3rem;
+            background-color: rgba(vars.$colorWheelA, 0.85);
+            border-bottom-right-radius: 0.5rem;
+            border-top-right-radius: 0.5rem;
+        }
+
+        @include bulma.mobile() {
+            flex-direction: column;
+            justify-content: flex-end !important;
+            align-items: flex-start !important;
+            background-position-x: 85%;
+        }
     }
 }
