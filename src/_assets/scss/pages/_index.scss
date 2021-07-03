@@ -1,25 +1,91 @@
 @use '../../../../node_modules/bulma/sass/utilities/_all.sass' as bulma;
 @use '../variables' as vars;
 
+// .hero {
+//     .hero-body {
+//         background-position: 100% 0%;
+//         background-repeat: no-repeat;
+//         background-size: cover;
+//         background-image: url(/img/02.jpg);
+//         padding-left: 0;
+//         min-height: 400px !important;
+
+//         .title,
+//         .subtitle {
+//             color: vars.$colorContrastA;
+//         }
+
+//         .title {
+//             padding: 0.5em 0.5em 0.5em 3rem;
+//             background-color: rgba(vars.$colorWheelA, 0.85);
+//             border-bottom-right-radius: 0.5rem;
+//             border-top-right-radius: 0.5rem;
+//         }
+
+//         @include bulma.mobile() {
+//             flex-direction: column;
+//             justify-content: flex-end !important;
+//             align-items: flex-start !important;
+//             background-position-x: 85%;
+//         }
+//     }
+// }
+
+nav.navbar {
+    background-color: rgba(vars.$colorWheelC, 0.75) !important;
+}
+
 .hero {
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    background-position: 100% 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/02.jpg);
+    min-height: 45vw !important; /* bg image aspect ratio */
+
+    @include bulma.mobile() {
+        height: 540px;
+    }
+
+    & > .container {
+        width: 100%;
+    }
+
     .hero-body {
-        background-position: 100% 0%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-image: url(/img/02.jpg);
-        padding-left: 0;
-        min-height: 400px !important;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0 !important;
+
+        & > .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            width: 100%;
+        }
 
         .title,
         .subtitle {
             color: vars.$colorContrastA;
+            margin: 0;
+            min-width: 50%;
+            text-align: center;
         }
 
         .title {
             padding: 0.5em 0.5em 0.5em 3rem;
             background-color: rgba(vars.$colorWheelA, 0.85);
-            border-bottom-right-radius: 0.5rem;
+            border-top-left-radius: 0.5rem;
             border-top-right-radius: 0.5rem;
+            font-size: 1.5rem;
+        }
+
+        .subtitle {
+            padding: 0.5em 0.5em 0.5em 3rem;
+            background-color: rgba(vars.$colorContrastC, 0.85);
+            border-bottom-left-radius: 0.5rem;
+            border-bottom-right-radius: 0.5rem;
         }
 
         @include bulma.mobile() {
@@ -29,4 +95,19 @@
             background-position-x: 85%;
         }
     }
+}
+
+span.brand {
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    span:nth-child(1) {
+        font-weight: 900;
+    }
+    span:nth-child(2) {
+        font-weight: 900;
+    }
+}
+img.brand {
+    height: 1em;
 }
