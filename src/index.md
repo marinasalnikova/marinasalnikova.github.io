@@ -1,5 +1,6 @@
 ---
-title: "Marina Salnikova :: CV"
+title: "Marina Salnikova"
+description: Curriculum Vitae · Ansioluettelo
 permalink: index.html
 layout: "layouts/index.liquid"
 ---
