@@ -5,7 +5,7 @@
     "main": "index.njk",
     "scripts": {
         "test": "jest",
-        "upgrade": "ncu -u && rimraf node_modules && npm install && npm audit fix",
+        "upgrade": "npm-check-updates -u && rimraf node_modules && npm install && npm audit fix",
         "watch:sass": "sass --watch src/_assets/scss:_site/css",
         "build:sass": "sass --no-source-map src/_assets/scss:_site/css --style=compressed",
         "build-local:sass": "sass src/_assets/scss:_site/css",
@@ -26,18 +26,18 @@
     "homepage": "https://github.com/marinasalnikova/marinasalnikova.github.io#readme",
     "devDependencies": {
         "@11ty/eleventy": "github:11ty/eleventy",
-        "@11ty/eleventy-img": "^0.9.0",
+        "@11ty/eleventy-img": "^2.0.1",
         "@creativebulma/bulma-divider": "^1.1.0",
-        "bulma": "^0.9.3",
-        "eslint": "^7.29.0",
+        "bulma": "^0.9.4",
+        "eslint": "^8.29.0",
         "html-minifier": "^4.0.0",
-        "jquery": "^3.6.0",
-        "jquery-validation": "^1.19.3",
-        "markdown-it": "^12.0.6",
-        "npm-check-updates": "^11.7.1",
+        "jquery": "^3.6.1",
+        "jquery-validation": "^1.19.5",
+        "markdown-it": "^13.0.1",
+        "npm-check-updates": "^16.5.6",
         "npm-run-all": "^4.1.5",
         "rimraf": "^3.0.2",
-        "sass": "^1.35.1",
-        "stylelint-config-standard": "^22.0.0"
+        "sass": "^1.56.2",
+        "stylelint-config-standard": "^29.0.0"
     }
 }

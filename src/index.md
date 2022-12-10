@@ -1,16 +1,68 @@
 ---
-title: "Marina Salnikova: web development and web design"
+title: "Marina Salnikova :: CV"
 permalink: index.html
 layout: "layouts/index.liquid"
 ---
 
-<!-- ## What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+I am open for training and summer job positions in laboratory field preferably in Kuopio area.
 
-## Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+Olen avoin harjoittelu- ja kesätyötehtäviin laboratorioalalla mahdollisesti Kuopion seudulla.
 
-## Where does it come from?
-Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+## Work experience | Työkokemus
+`2021-01 — 2022-12`
+__Freelance Web Developer | Freelance Web-kehittäjä__
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham. -->
+https://zdoroviakod.github.io
+
+`2007-01 — 2014-06`
+__Senior Medical Specialist | Vanhempi lääketieteen asiantuntija__
+_Sanofi_
+
+Nizhny Novogorod district senior sales specialist for cardilogic medicines
+
+Nizhny Novgorodin aluen sydänlääkkeiden vanhempi myyntiasiantuntija
+
+## Education | Koulutus
+
+`2022-07 — `
+__Laboratory technician | Laboratorioala__
+_Savon ammattiopisto_
+
+To conduct laboratory tests for chemical, food and other industries, as well as in healthcare and welfare examinations.
+
+Suorittaa kemian-, elintarvike- ja muun teollisuuden laboratoriotutkimuksia sekä terveydenhuollon ja hyvinvoinnin laboratoriotutkimuksia.
+
+`2016-09 — 2022-05`
+__Caregiver - unfinished | Lähihoitaja - keskeneräinen__
+_Savon ammattiopisto_
+
+Aborted due to childbirth and seek for a new career path.
+
+Keskeytty synnytyksen vuoksi ja etsiä uutta uraa.
+
+## Expertises | Asiantuntemuksia
+
+Clinical: laboratory | Kliininen: laboratorio
+
+Pediatric: pediatrics | Pediatria: lastentaudit
+
+Allied health: healthcare | Liittynyt terveys: terveydenhuolto
+
+## Skills | Taitoa
+- Microsoft Office
+- Pipeting
+- Titration
+- Gravimetry
+- Electrolysis
+- Communication
+
+## Languages | Kieliä
+
+`Mother tongue | Äidinkieli`
+Russian | Venäjä
+
+`B2`
+Finish | Suomi
+
+`B2`
+English | Englanti

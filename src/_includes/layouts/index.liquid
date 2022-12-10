@@ -1,65 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        {% include 'html/head.liquid' %}
-        <!-- {% include 'html/head/contactform.liquid' %} -->
-        <title>{{ title }}</title>
-    </head>
-    <body class="content">
-        <nav class="navbar is-info is-fixed-top">
-            <div class="container">
-                <div class="navbar-brand">
-                    <a class="navbar-item">
-                        <img
-                            src="/img/logo-white.svg"
-                            alt="Logo"
-                            class="brand"
-                        />
-                        <span class="brand">
-                            <span>Marina</span>
-                            <span>Salnikova</span>
-                        </span>
-                    </a>
-                    <span class="navbar-burger" data-target="navbarMenuHeroA">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </div>
-                <div id="navbarMenuHeroA" class="navbar-menu">
-                    <div class="navbar-end">
-                        <!-- <a class="navbar-item is-active"> Home </a>
-                        <a class="navbar-item"> Examples </a>
-                        <a class="navbar-item"> Documentation </a>
-                        <span class="navbar-item">
-                            <a class="button is-primary is-inverted">
-                                <span class="icon">
-                                    <i class="fab fa-github"></i>
-                                </span>
-                                <span>Download</span>
-                            </a>
-                        </span> -->
-                    </div>
-                </div>
-            </div>
-        </nav>
-        <section class="hero is-primary is-medium">
-            <!-- Hero head: will stick at the top -->
-            <div class="hero-head"></div>
+  <head>
+    {% include 'html/head.liquid' %}
+    <title>{{ title }}</title>
+  </head>
+  <body class="content">
+    <nav class="navbar is-info is-fixed-top">
+      <div class="container">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="/img/logo-white.svg" alt="Logo" class="brand"/>
+            <span class="brand">
+              <span>Marina</span>
+              <span>Salnikova</span>
+            </span>
+          </a>
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end"><!-- <a class="navbar-item is-active"> Home </a>
+            <a class="navbar-item"> Examples </a>
+            <a class="navbar-item"> Documentation </a>
+            <span class="navbar-item">
+            <a class="button is-primary is-inverted">
+            <span class="icon">
+            <i class="fab fa-github"></i>
+            </span>
+            <span>Download</span>
+            </a>
+            </span> -->
+          </div>
+        </div>
+      </div>
+    </nav>
 
-            <!-- Hero content: will be in the middle -->
-            <div class="hero-body">
-                <div class="container">
-                    <!-- <p class="title">Marina Salnikova</p> -->
-                    <!-- <p class="subtitle">
-                        design &amp; development of static web sites
-                    </p> -->
-                </div>
-            </div>
-        </section>
 
-        <section class="container">
-            {{ content }}
-        </section>
-    </body>
+    <article>
+      <section class="cv-head">
+        <div class="photo">
+          {%- comment -%}
+            <img src="https://media.licdn.com/dms/image/D4E03AQFKo6oqCD0RuQ/profile-displayphoto-shrink_200_200/0/1670659301133?e=1675900800&v=beta&t=S13lLtPI1s8-XI2Hf3wnyGCFOhQcTLE2z0DAUN1nNUk" alt="Marina Salnikova"/>
+          {%- endcomment -%}
+          <img src="{{ url }}/img/photo.jpg" alt="Marina Salnikova"/>
+        </div>
+        <div class="about">
+          <h1>
+            Marina Salnikova
+          </h1>
+          <div>
+            <div class="location">
+              Kuopio, North Savo | Kuopio, Pohjois-Savo
+            </div>
+            <div class="in">
+              <a href="https://www.linkedin.com/in/marina-salnikova/">
+                https://www.linkedin.com/in/marina-salnikova/
+              </a>
+            </div>
+            <div class="email">
+              marina.salnikova@live.com
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cv">
+        {{ content }}
+      </section>
+    </article>
+  </body>
 </html>
