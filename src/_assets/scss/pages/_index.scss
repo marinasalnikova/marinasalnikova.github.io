@@ -54,10 +54,8 @@ article {
 .cv {
     p {
         position: relative;
-        left: 33%;
         margin-bottom: 0.7em;
         margin-right: 0;
-        width: 65%;
     }
 
     code {
@@ -76,8 +74,6 @@ article {
 
     ul {
         position: relative;
-        left: 33%;
-        width: 65%;
         margin-bottom: 1.5rem;
         margin-left: 0;
     }
@@ -109,24 +105,7 @@ article {
     h2,
     h3,
     h4 {
-        font-weight: 400;
-        font-family: Cousine, Verdana, sans-serif;
-        width: 65%;
         margin-bottom: 1.5em;
-    }
-
-    h1 {
-        text-align: left;
-        font-size: 3em;
-        line-height: 1em;
-        position: relative;
-        left: 33%;
-    }
-
-    h1+p {
-        /*subtitle*/
-        font-style: italic;
-        font-size: 110%;
     }
 
     h2 {
@@ -135,8 +114,6 @@ article {
         margin-top: 3em;
         position: relative;
         top: 1.4em;
-        text-align: right;
-        width: 30%;
     }
 
     h3 {
@@ -149,11 +126,25 @@ article {
     }
 
     em {
-        font-weight: bold;
-        font-style: italic;
+        font-weight: 600;
+        font-style: normal;
+        color: lighten(vars.$colorContrastB, 25%);
     }
 
     strong {
         font-weight: bold;
+    }
+
+    @media screen and (min-width: bulma.$tablet) {
+
+        p, ul {
+            left: 33%;
+            width: 65%;
+        }
+
+        h2 {
+            text-align: right;
+            width: 30%;
+        }
     }
 }
