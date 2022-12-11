@@ -41,6 +41,14 @@ Aborted due to childbirth and seek for a new career path.
 
 Keskeytty synnytyksen vuoksi ja etsiä uutta uraa.
 
+`1998-09 — 2004-05`
+__Doctor of Medicine - MD | Lastenlääkäri__
+_Nizhny Novgorod State Medical Academy_
+
+Pediatrics
+
+Lasten taudit
+
 ## Expertises | Asiantuntemuksia
 
 Clinical: laboratory | Kliininen: laboratorio
