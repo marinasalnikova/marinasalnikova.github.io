@@ -19,7 +19,7 @@ https://zdoroviakod.github.io
 __Senior Medical Specialist | Vanhempi lääketieteen asiantuntija__
 _Sanofi_
 
-Nizhny Novogorod district senior sales specialist for cardilogic medicines
+Nizhny Novogorod district senior sales specialist for cardiologic medicines
 
 Nizhny Novgorodin aluen sydänlääkkeiden vanhempi myyntiasiantuntija
 
