@@ -77,5 +77,5 @@ Finish | Suomi
 English | Englanti
 
 ## Certifications | Sertifioinnit
-- Hygieniapassi | Hygiene passport
+- Hygiene passport | Hygieniapassi
 
