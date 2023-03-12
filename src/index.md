@@ -75,3 +75,7 @@ Finish | Suomi
 
 `B2`
 English | Englanti
+
+## Certifications | Sertifioinnit
+- Hygieniapassi | Hygiene passport
+
